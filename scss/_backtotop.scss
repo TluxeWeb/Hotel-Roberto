@@ -2,12 +2,12 @@
 
 #scrollUp {
     position: fixed;
-    right: 40px;
+    right: 35px;
     font-size: 20px;
     line-height: 40px;
     width: 40px;
     height: 40px;
-    bottom: 40px;
+    bottom: 100px;
     background-color: $primary;
     color: $white;
     text-align: center;
@@ -17,8 +17,8 @@
     z-index: 15962536;
 
     @media #{$breakpoint-xs} {
-        right: 20px;
-        bottom: 20px;
+        right: 35px;
+        bottom: 100px;
     }
 
     &:focus,
